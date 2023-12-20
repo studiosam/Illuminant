@@ -19,5 +19,7 @@ public class ASCIIScreenDisplays {
         System.out.println("|________________________________________________________________|");
     }
 
-    
+    public static void introTunnelChoice() {
+        
+    }
 }
