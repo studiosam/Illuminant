@@ -5,7 +5,9 @@ public class Story {
     }
 
     public void intro() {
-        TextEffects.typewriterPrint("\"...What is this? Where am I?\"");
+        System.out.println("Pull request test");
+
+        TextEffects.typewriterPrint("\"...What's going on? What am I doing here?\"");
         TextEffects.typingDelay(1000);
         
         TextEffects.typewriterPrint(
