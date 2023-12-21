@@ -104,7 +104,7 @@ public class Character {
                     break;
                 case "3":
                     type = "Mage";
-                    eyeColor = "Purple";
+                    eyeColor = "Pink";
                     textColor = TextEffects.PURPLE;
                     break;
                 case "GOD MODE":
