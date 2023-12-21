@@ -25,6 +25,7 @@ public class Illuminant {
         clarenceTheBatBattle.oneVsOne(input);
 
         story.intro(player);
+        ASCIIScreenDisplays.introTunnelChoice();
 
         return;
     }

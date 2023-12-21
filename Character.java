@@ -99,13 +99,13 @@ public class Character {
                     break;
                 case "2":
                     type = "Rogue";
-                    eyeColor = "Purple";
-                    textColor = TextEffects.PURPLE;
+                    eyeColor = "Blue";
+                    textColor = TextEffects.BLUE;
                     break;
                 case "3":
                     type = "Mage";
-                    eyeColor = "Blue";
-                    textColor = TextEffects.BLUE;
+                    eyeColor = "Purple";
+                    textColor = TextEffects.PURPLE;
                     break;
                 case "GOD MODE":
                     type = "GOD";

@@ -76,7 +76,7 @@ public class Story {
                     TextEffects.narratorDialogue("As your voice gets louder, the cell is bathed in a " + player.getTextColor() + player.getEyeColor().toLowerCase() + TextEffects.RESET + " luminescence. Your left eye, glowing as it always does when you speak, illuminates the darkness."));
                 TextEffects.typingDelay(500);
 
-                TextEffects.typewriterPrint("\n" +
+                TextEffects.typewriterPrint(
                     TextEffects.characterDialogue(
                     TextEffects.RESET, 
                     "Coakley", 
@@ -230,7 +230,8 @@ public class Story {
                     TextEffects.characterDialogue(
                     TextEffects.CYAN, 
                     "Clarence", 
-                    "So? What'll it be? Which path do you want to take?\" \n\t1. Blue \n\t2. Pink \n\t3. Green"));    
+                    "So? What'll it be? Which path do you want to take?\" \n\t1. Blue \n\t2. Pink \n\t3. Green"));  
+                System.out.println("\n\n");  
                 introCounter++;
                 break;
         }

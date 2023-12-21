@@ -38,7 +38,7 @@ public class BattleManager {
     // Check if defender died
     if(defender.getHealth() <= 0) {
         defender.setHealth(0);
-        System.out.println(attacker.getName() + " wins!"); 
+        System.out.print(attacker.getName() + " wins!"); 
     } else {
         defender.getResources();
     }

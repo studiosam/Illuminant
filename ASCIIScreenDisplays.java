@@ -1,5 +1,6 @@
 public class ASCIIScreenDisplays {
     public static void startScreen() {
+        System.out.println(TextEffects.RESET);
         System.out.println(" ________________________________________________________________");
         System.out.println(" |                                                              | ");
         System.out.println("|                                                                |");
@@ -20,6 +21,21 @@ public class ASCIIScreenDisplays {
     }
 
     public static void introTunnelChoice() {
-        
+        System.out.println(" ________________________________________________________________ ");
+        System.out.println("|                                                                |");
+        System.out.println("|                                                                |");
+        System.out.println("|                                                                |");
+        System.out.println("|                                                                |");
+        System.out.println("|                                                                |");
+        System.out.println("|                                                                |");
+        System.out.println("|                                                                |");
+        System.out.println("|          _____               _____                _____        |");
+        System.out.println("|         /     \\             /     \\              /     \\       |");
+        System.out.println("|        |       |           |       |            |       |      |");
+        System.out.println("|        |       |           |       |            |       |      |");
+        System.out.println("|        |       |           |       |            |       |      |");
+        System.out.println("|________|       |___________|       |____________|       |______|");
+        System.out.println("|" + TextEffects.BLUE_BACKGROUND + " ,(   ,(   ,(   ,(   ,(   ,(   ,(   ,(   ,(   ,(   ,(   ,(   ,( " + TextEffects.RESET + "|");
+        System.out.println("|" + TextEffects.BLUE_BACKGROUND + "   `-'  `-'  `-'  `-'  `-'  `-'  `-'  `-'  `-'  `-'  `-'  `-'  `" + TextEffects.RESET + "|");
     }
 }
