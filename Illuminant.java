@@ -4,6 +4,7 @@ public class Illuminant {
     
     public static void main(String[] args) {
         TextEffects.clearScreen();
+        ASCIIScreenDisplays.introTunnelChoice();        
         ASCIIScreenDisplays.startScreen();
 
         Story story = new Story();
