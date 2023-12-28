@@ -3,7 +3,7 @@ import java.util.*;
 public class Illuminant {
     
     public static void main(String[] args) {
-        TextEffects.clearScreen();   
+        TextEffects.clearScreen();
         ASCIIScreenDisplays.startScreen();
 
         Story story = new Story();
