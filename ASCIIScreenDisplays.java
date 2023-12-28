@@ -1,5 +1,3 @@
-import org.w3c.dom.Text;
-
 public class ASCIIScreenDisplays {
     public static void startScreen() {
         System.out.println(TextEffects.RESET);
